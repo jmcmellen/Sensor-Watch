@@ -6,6 +6,8 @@ BUILD = ./build-sim
 endif
 BIN = watch
 
+COLOR = PRO
+
 ifndef COLOR
 $(error Set the COLOR variable to RED, BLUE, GREEN or PRO depending on what board you have.)
 endif
